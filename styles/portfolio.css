@@ -70,14 +70,19 @@ nav ul{
     height: 64px;
     color: #FD6E0A;
     width: 160px;
+    background: #FFF8F3;
+    font-weight: 700;
+    font-size: 20px;
 }
 /* about section styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
-.about{
+section{
     margin-top: 130px;
+}
+.about{
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -88,6 +93,8 @@ main{
     font-size: 35px;
     line-height: 48px;
     margin-bottom: 30px;
+    color: #181818;
+    text-align: center;
 }
 .section-description{
     font-weight: 400;
@@ -110,3 +117,37 @@ main{
     font-size: 20px;
     color: #474747;
 }
+/* what i do styles */
+.didthis{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 32px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.skill-details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.skills-container img{
+    margin-bottom: 30px;
+}
+/* Resume section styles */
