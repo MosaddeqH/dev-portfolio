@@ -155,6 +155,9 @@ section{
     display: flex;
     gap: 24px;
 }
+.resume .section-title{
+    margin-bottom: 113px;
+}
 .resume-title{
     font-weight: 700;
     font-size: 30px;
